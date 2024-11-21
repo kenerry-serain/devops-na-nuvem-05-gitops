@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: backend
+  annotations: 
+    alb.ingress.kubernetes.io/healthcheck-path: /backend/health
 spec:
   type: NodePort
   selector:
