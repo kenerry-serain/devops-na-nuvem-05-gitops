@@ -8,11 +8,11 @@ resources:
 - frontend/service.yml
 - ingress.yml
   
+
 images:
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
-  newTag: v1.0
-
+  newTag: 15eb6270a696d1b7a94b1a515024b7f01ab09437
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newTag: v1.0
